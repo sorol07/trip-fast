@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 196.3 57.83">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: PPNeueMachina-Regular, 'PP Neue Machina';
+        font-size: 52.55px;
+      }
+
+      .cls-2 {
+        fill: #f15a29;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-4 {
+        opacity: 0;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-3" x="170.89" y="20.63" width="25.34" height="31.95"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-3" x="170.89" y="9.94" width="25.34" height="31.95"/>
+    </clipPath>
+  </defs>
+  <text class="cls-1" transform="translate(0 44.8)"><tspan x="0" y="0">t</tspan></text>
+  <text class="cls-1" transform="translate(20.6 44.8)"><tspan x="0" y="0">r</tspan></text>
+  <text class="cls-1" transform="translate(41.61 44.8)"><tspan x="0" y="0">a</tspan></text>
+  <text class="cls-1" transform="translate(70.57 44.8)"><tspan x="0" y="0">v</tspan></text>
+  <text class="cls-1" transform="translate(96.73 44.8)"><tspan x="0" y="0">g</tspan></text>
+  <text class="cls-1" transform="translate(129.26 44.8)"><tspan x="0" y="0">o</tspan></text>
+  <g class="cls-6">
+    <polygon class="cls-2" points="196.22 38.29 170.89 52.58 170.89 48.44 192.4 36.67 192.4 36.55 170.89 24.78 170.89 20.63 196.22 34.92 196.22 38.29"/>
+  </g>
+  <g class="cls-5">
+    <polygon class="cls-2" points="196.22 27.59 170.89 41.89 170.89 37.75 192.4 25.97 192.4 25.85 170.89 14.08 170.89 9.94 196.22 24.23 196.22 27.59"/>
+  </g>
+  <rect class="cls-4" x="170.89" y="9.94" width="25.41" height="31.41"/>
+  <rect class="cls-4" x="170.89" y="20.63" width="25.41" height="31.41"/>
+</svg>

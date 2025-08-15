@@ -245,7 +245,7 @@
             <div class="destination-list-wrap">
               <div
                 class="destination-list"
-                data-bg-src="assets/img/destination/destination_2_1.jpg"
+                data-bg-src="assets/img/destination/coxs-bazar.png"
               >
                 <div class="destination-content">
                   <h4 class="box-title">
@@ -259,7 +259,7 @@
             <div class="destination-list-wrap">
               <div
                 class="destination-list"
-                data-bg-src="assets/img/destination/destination_2_2.jpg"
+                data-bg-src="assets/img/destination/sajek.png"
               >
                 <div class="destination-content">
                   <h4 class="box-title">

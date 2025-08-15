@@ -104,11 +104,12 @@
                       <option value="Select Tour Type" selected="selected" disabled="disabled">
                         Select Tour Type
                       </option>
-                      <option value="Africa Adventure">Africa Adventure</option>
-                      <option value="Africa Wild">Africa Wild</option>
-                      <option value="Asia">Asia</option>
-                      <option value="Scandinavia">Scandinavia</option>
-                      <option value="Western Europe">Western Europe</option>
+                      <option value="Africa Adventure">Cox`s Bazar</option>
+                      <option value="Africa Wild">Senmartin</option>
+                      <option value="Asia">Bandarban</option>
+                      <option value="Scandinavia">Sajek</option>
+                      <option value="Western Europe">Sreemangal</option>
+                      <option value="Western Europe">Sylhet</option>
                     </select>
                   </div>
                   <div class="form-group col-12">

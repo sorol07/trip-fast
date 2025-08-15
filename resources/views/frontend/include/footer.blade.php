@@ -1,38 +1,13 @@
     <footer class="footer-wrapper bg-title footer-layout2">
       <div class="widget-area">
         <div class="container">
-          <div class="newsletter-area">
-            <div class="newsletter-top">
-              <div class="row gy-4 align-items-center">
-                <div class="col-lg-5">
-                  <h2 class="newsletter-title text-white text-capitalize mb-0">
-                    get updated the latest newsletter
-                  </h2>
-                </div>
-                <div class="col-lg-7">
-                  <form class="newsletter-form style2">
-                    <input
-                      class="form-control"
-                      type="email"
-                      placeholder="Enter Email"
-                      required=""
-                    />
-                    <button type="submit" class="th-btn style1">
-                      Subscribe Now
-                      <img src="assets/img/icon/plane2.svg" alt="" />
-                    </button>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
           <div class="row justify-content-between">
             <div class="col-md-6 col-xl-3">
               <div class="widget footer-widget">
                 <div class="th-widget-about">
                   <div class="about-logo">
                     <a href="index.html"
-                      ><img src="assets/img/travgo_logo2.png" alt="TravGo"
+                      ><img src="assets/img/logowhite.png" alt="TravGo"
                     /></a>
                   </div>
                   <p class="about-text">
@@ -65,10 +40,10 @@
                 <div class="menu-all-pages-container">
                   <ul class="menu">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About us</a></li>
+                    <li><a href="{{ route('about') }}">About us</a></li>
                     <li><a href="service.html">Our Service</a></li>
-                    <li><a href="contact.html">Terms of Service</a></li>
-                    <li><a href="contact.html">Tour Booking Now</a></li>
+                    <li><a href="{{ route('contact') }}">Terms of Service</a></li>
+                    <li><a href="{{ route('contact') }}">Tour Booking Now</a></li>
                   </ul>
                 </div>
               </div>
@@ -108,7 +83,7 @@
                       <img src="assets/img/icon/location-dot.svg" alt="img" />
                     </div>
                     <div class="details">
-                      <p>789 Inner Lane, Holy park, California, USA</p>
+                      <p>Pantha Path Concord Tower</p>
                     </div>
                   </div>
                 </div>

@@ -1,7 +1,7 @@
 @extends('frontend.master')
 
 @section('title')
-
+  TripFast - Travel & Tour Booking Agency - Home Tour
 @endsection
 
 @section('content')
@@ -253,7 +253,7 @@
                   </h4>
                   <span class="destination-subtitle">28 Listing</span>
                 </div>
-                <a href="contact.html" class="th-btn style2">Book Now</a>
+                <a href="{{ route('contact') }}" class="th-btn style2">Book Now</a>
               </div>
             </div>
             <div class="destination-list-wrap">
@@ -267,7 +267,7 @@
                   </h4>
                   <span class="destination-subtitle">15 Listing</span>
                 </div>
-                <a href="contact.html" class="th-btn style2">Book Now</a>
+                <a href="{{ route('contact') }}" class="th-btn style2">Book Now</a>
               </div>
             </div>
             <div class="destination-list-wrap">
@@ -281,7 +281,7 @@
                   </h4>
                   <span class="destination-subtitle">22 Listing</span>
                 </div>
-                <a href="contact.html" class="th-btn style2">Book Now</a>
+                <a href="{{ route('contact') }}" class="th-btn style2">Book Now</a>
               </div>
             </div>
             <div class="destination-list-wrap active">
@@ -295,7 +295,7 @@
                   </h4>
                   <span class="destination-subtitle">25 Listing</span>
                 </div>
-                <a href="contact.html" class="th-btn style2">Book Now</a>
+                <a href="{{ route('contact') }}" class="th-btn style2">Book Now</a>
               </div>
             </div>
           </div>

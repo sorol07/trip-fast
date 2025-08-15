@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>TravelGo - Travel & Tour Booking Agency - Home Tour</title>
+    <title>@yield('title')</title>
     <meta name="author" content="Tourm" />
     <meta name="description"content="TravelGO - Travel & Tour Booking Agency"/>
     <meta name="keywords"content="TravelGO - Travel & Tour Booking Agency"/>

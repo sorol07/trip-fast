@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html class="no-js" lang="zxx">
   <head>
     <meta charset="utf-8" />
@@ -93,8 +93,8 @@
                 <li><a href="service-details.html">Special Request</a></li>
               </ul>
             </li>
-            <li><a href="contact.html">FAQ</a></li>
-            <li><a href="contact.html">Contact us</a></li>
+            <li><a href="{{ route('contact') }}">FAQ</a></li>
+            <li><a href="{{ route('contact') }}">Contact us</a></li>
           </ul>
         </div>
       </div>
@@ -133,7 +133,7 @@
                       <a href="faq.html">FAQ</a>
                     </li>
                     <li class="d-none d-md-inline-block">
-                      <a href="contact.html">Support</a>
+                      <a href="{{ route('contact') }}">Support</a>
                     </li>
                     <li>
                       <a href="#login-form" class="popup-content"
@@ -175,8 +175,8 @@
                         <li><a href="service-details.html">Special Request</a></li>
                       </ul>
                     </li>
-                    <li><a href="contact.html">FAQ</a></li>
-                    <li><a href="contact.html">Contact us</a></li>
+                    <li><a href="{{ route('contact') }}">FAQ</a></li>
+                    <li><a href="{{ route('contact') }}">Contact us</a></li>
                   </ul>
                 </nav>
                 <button type="button" class="th-menu-toggle d-block d-xl-none">
@@ -185,7 +185,7 @@
               </div>
               <div class="col-auto d-none d-xl-block">
                 <div class="header-button">
-                  <a href="contact.html" class="th-btn style3 th-icon">Book Now</a>
+                  <a href="{{ route('contact') }}" class="th-btn style3 th-icon">Book Now</a>
                 </div>
               </div>
             </div>
@@ -513,7 +513,7 @@
                   </h4>
                   <span class="destination-subtitle">28 Listing</span>
                 </div>
-                <a href="contact.html" class="th-btn style2">Book Now</a>
+                <a href="{{ route('contact') }}" class="th-btn style2">Book Now</a>
               </div>
             </div>
             <div class="destination-list-wrap">
@@ -527,7 +527,7 @@
                   </h4>
                   <span class="destination-subtitle">15 Listing</span>
                 </div>
-                <a href="contact.html" class="th-btn style2">Book Now</a>
+                <a href="{{ route('contact') }}" class="th-btn style2">Book Now</a>
               </div>
             </div>
             <div class="destination-list-wrap">
@@ -541,7 +541,7 @@
                   </h4>
                   <span class="destination-subtitle">22 Listing</span>
                 </div>
-                <a href="contact.html" class="th-btn style2">Book Now</a>
+                <a href="{{ route('contact') }}" class="th-btn style2">Book Now</a>
               </div>
             </div>
             <div class="destination-list-wrap active">
@@ -555,7 +555,7 @@
                   </h4>
                   <span class="destination-subtitle">25 Listing</span>
                 </div>
-                <a href="contact.html" class="th-btn style2">Book Now</a>
+                <a href="{{ route('contact') }}" class="th-btn style2">Book Now</a>
               </div>
             </div>
           </div>
@@ -1013,7 +1013,7 @@
                 </li>
               </ul>
               <div class="mt-60">
-                <a href="contact.html" class="th-btn style3 th-icon"
+                <a href="{{ route('contact') }}" class="th-btn style3 th-icon"
                   >Get More Offer</a
                 >
               </div>
@@ -1084,7 +1084,7 @@
                     </h4>
                     <div class="tour-action">
                       <span><i class="fa-light fa-clock"></i>7 Days</span>
-                      <a href="contact.html" class="th-btn style4">Book Now</a>
+                      <a href="{{ route('contact') }}" class="th-btn style4">Book Now</a>
                     </div>
                   </div>
                 </div>
@@ -1121,7 +1121,7 @@
                     </h4>
                     <div class="tour-action">
                       <span><i class="fa-light fa-clock"></i>7 Days</span>
-                      <a href="contact.html" class="th-btn style4">Book Now</a>
+                      <a href="{{ route('contact') }}" class="th-btn style4">Book Now</a>
                     </div>
                   </div>
                 </div>
@@ -1158,7 +1158,7 @@
                     </h4>
                     <div class="tour-action">
                       <span><i class="fa-light fa-clock"></i>7 Days</span>
-                      <a href="contact.html" class="th-btn style4">Book Now</a>
+                      <a href="{{ route('contact') }}" class="th-btn style4">Book Now</a>
                     </div>
                   </div>
                 </div>
@@ -1195,7 +1195,7 @@
                     </h4>
                     <div class="tour-action">
                       <span><i class="fa-light fa-clock"></i>7 Days</span>
-                      <a href="contact.html" class="th-btn style4">Book Now</a>
+                      <a href="{{ route('contact') }}" class="th-btn style4">Book Now</a>
                     </div>
                   </div>
                 </div>
@@ -1232,7 +1232,7 @@
                     </h4>
                     <div class="tour-action">
                       <span><i class="fa-light fa-clock"></i>7 Days</span>
-                      <a href="contact.html" class="th-btn style4">Book Now</a>
+                      <a href="{{ route('contact') }}" class="th-btn style4">Book Now</a>
                     </div>
                   </div>
                 </div>
@@ -1269,7 +1269,7 @@
                     </h4>
                     <div class="tour-action">
                       <span><i class="fa-light fa-clock"></i>7 Days</span>
-                      <a href="contact.html" class="th-btn style4">Book Now</a>
+                      <a href="{{ route('contact') }}" class="th-btn style4">Book Now</a>
                     </div>
                   </div>
                 </div>
@@ -1306,7 +1306,7 @@
                     </h4>
                     <div class="tour-action">
                       <span><i class="fa-light fa-clock"></i>7 Days</span>
-                      <a href="contact.html" class="th-btn style4">Book Now</a>
+                      <a href="{{ route('contact') }}" class="th-btn style4">Book Now</a>
                     </div>
                   </div>
                 </div>
@@ -1343,7 +1343,7 @@
                     </h4>
                     <div class="tour-action">
                       <span><i class="fa-light fa-clock"></i>7 Days</span>
-                      <a href="contact.html" class="th-btn style4">Book Now</a>
+                      <a href="{{ route('contact') }}" class="th-btn style4">Book Now</a>
                     </div>
                   </div>
                 </div>
@@ -2230,8 +2230,8 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About us</a></li>
                     <li><a href="service.html">Our Service</a></li>
-                    <li><a href="contact.html">Terms of Service</a></li>
-                    <li><a href="contact.html">Tour Booking Now</a></li>
+                    <li><a href="{{ route('contact') }}">Terms of Service</a></li>
+                    <li><a href="{{ route('contact') }}">Tour Booking Now</a></li>
                   </ul>
                 </div>
               </div>
@@ -2571,4 +2571,4 @@
     <script src="assets/js/nice-select.min.js"></script>
     <script src="assets/js/main.js"></script>
   </body>
-</html>
+</html> -->

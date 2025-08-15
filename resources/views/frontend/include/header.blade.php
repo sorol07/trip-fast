@@ -1,17 +1,19 @@
  <div id="preloader" class="preloader">
       <button class="th-btn preloaderCls">Cancel Preloader</button>
       <div class="preloader-inner">
-        <img src="assets/img/travgo_logo.png" alt="" />
+        <img src="assets/img/tripfastlogo.png" alt="tripfast" />
       </div>
       <div id="loader" class="th-preloader">
         <div class="animation-preloader">
           <div class="txt-loading">
             <span preloader-text="T" class="characters">T </span>
             <span preloader-text="R" class="characters">R </span>
-            <span preloader-text="A" class="characters">A </span>
-            <span preloader-text="V" class="characters">V </span>
-            <span preloader-text="G" class="characters">G</span>
-            <span preloader-text="O" class="characters">O</span>
+            <span preloader-text="I" class="characters">I </span>
+            <span preloader-text="P" class="characters">P </span>
+            <span preloader-text="F" class="characters">F</span>
+            <span preloader-text="A" class="characters">A</span>
+            <span preloader-text="S" class="characters">S</span>
+            <span preloader-text="T" class="characters">T</span>
           </div>
         </div>
       </div>
@@ -27,30 +29,29 @@
       <div class="th-menu-area text-center">
         <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
         <div class="mobile-logo">
-          <a href="index.html"
+          <a href="{{ route('home') }}"
             ><img src="assets/img/main_logo.svg" alt="TravGo"
           /></a>
         </div>
         <div class="th-mobile-menu">
           <ul>
             <li class="mega-menu-wrap">
-              <a class="active" href="index.html">Home</a>
+              <a class="active" href="{{ route('home') }}">Home</a>
             </li>
-            <li><a href="about.html">About Us</a></li>
+            <li><a href="{{ route('about') }}">About Us</a></li>
             <li class="menu-item-has-children">
               <a href="#">Services</a>
               <ul class="sub-menu">
-                <li><a href="service.html">Flights</a></li>
-                <li><a href="service-details.html">Hotels</a></li>
-                <li><a href="service-details.html">Car Rentals</a></li>
-                <li><a href="service-details.html">Vacation</a></li>
-                <li><a href="service-details.html">VIP & Corporate</a></li>
-                <li><a href="service-details.html">Airport Transfers</a></li>
-                <li><a href="service-details.html">Special Request</a></li>
+                <li><a href="#">Hotels</a></li>
+                <li><a href="#">Car Rentals</a></li>
+                <li><a href="#">Vacation</a></li>
+                <li><a href="#">VIP & Corporate</a></li>
+                <li><a href="#">Airport Transfers</a></li>
+                <li><a href="#">Special Request</a></li>
               </ul>
             </li>
-            <li><a href="contact.html">FAQ</a></li>
-            <li><a href="contact.html">Contact us</a></li>
+
+            <li><a href="{{ route('contact') }}">Contact us</a></li>
           </ul>
         </div>
       </div>
@@ -64,7 +65,7 @@
                 <ul>
                   <li class="d-none d-xl-inline-block">
                     <i class="fa-sharp fa-regular fa-location-dot"></i>
-                    <span>45 New Eskaton Road, Austria</span>
+                    <span>House-103 Pantha Path Farmgate Dhaka, Bangladesh</span>
                   </li>
                   <li class="d-none d-xl-inline-block">
                     <i class="fa-regular fa-clock"></i>
@@ -75,22 +76,8 @@
             </div>
             <div class="col-auto">
               <div class="header-right">
-                <div class="currency-menu">
-                  <select class="form-select nice-select">
-                    <option selected="">language</option>
-                    <option>CNY</option>
-                    <option>EUR</option>
-                    <option>AUD</option>
-                  </select>
-                </div>
                 <div class="header-links">
                   <ul>
-                    <li class="d-none d-md-inline-block">
-                      <a href="faq.html">FAQ</a>
-                    </li>
-                    <li class="d-none d-md-inline-block">
-                      <a href="contact.html">Support</a>
-                    </li>
                     <li>
                       <a href="#login-form" class="popup-content"
                         >Sign In / Register<i class="fa-regular fa-user"></i
@@ -109,29 +96,28 @@
             <div class="row align-items-center justify-content-between">
               <div class="col-auto">
                 <div class="header-logo">
-                  <a href="index.html"><img src="assets/img/triplogo1.png" alt="TravGo" style="width: 200px;"/></a>
+                  <a href="{{ route('home') }}"><img src="assets/img/triplogo1.png" alt="TravGo" style="width: 200px;"/></a>
                 </div>
               </div>
               <div class="col-auto">
                 <nav class="main-menu d-none d-xl-inline-block">
                   <ul>
                     <li class=" mega-menu-wrap">
-                      <a class="active" href="index.html">Home</a>
+                      <a class="active" href="{{ route('home') }}">Home</a>
                     </li>
-                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="{{ route('about') }}">About Us</a></li>
                     <li class="menu-item-has-children">
                       <a href="#">Services</a>
                       <ul class="sub-menu">
                         
-                        <li><a href="service-details.html">Hotels</a></li>
-                        <li><a href="service-details.html">Car Rentals</a></li>
-                        <li><a href="service-details.html">Vacation</a></li>
-                        <li><a href="service-details.html">VIP & Corporate</a></li>
-                        <li><a href="service-details.html">Special Request</a></li>
+                        <li><a href="#">Hotels</a></li>
+                        <li><a href="#">Car Rentals</a></li>
+                        <li><a href="#">Vacation</a></li>
+                        <li><a href="#">VIP & Corporate</a></li>
+                        <li><a href="#">Special Request</a></li>
                       </ul>
                     </li>
-                    <li><a href="contact.html">FAQ</a></li>
-                    <li><a href="contact.html">Contact us</a></li>
+                    <li><a href="{{ route('contact') }}">Contact us</a></li>
                   </ul>
                 </nav>
                 <button type="button" class="th-menu-toggle d-block d-xl-none">
@@ -140,7 +126,7 @@
               </div>
               <div class="col-auto d-none d-xl-block">
                 <div class="header-button">
-                  <a href="contact.html" class="th-btn style3 th-icon">Book Now</a>
+                  <a href="{{ route('contact') }}" class="th-btn style3 th-icon">Book Now</a>
                 </div>
               </div>
             </div>

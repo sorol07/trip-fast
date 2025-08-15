@@ -249,7 +249,7 @@
               >
                 <div class="destination-content">
                   <h4 class="box-title">
-                    <a href="destination-details.html">Thailand</a>
+                    <a href="destination-details.html">Coxis Bazar</a>
                   </h4>
                   <span class="destination-subtitle">28 Listing</span>
                 </div>
@@ -263,7 +263,7 @@
               >
                 <div class="destination-content">
                   <h4 class="box-title">
-                    <a href="destination-details.html">Belgium</a>
+                    <a href="destination-details.html">Sajek</a>
                   </h4>
                   <span class="destination-subtitle">15 Listing</span>
                 </div>
@@ -277,7 +277,7 @@
               >
                 <div class="destination-content">
                   <h4 class="box-title">
-                    <a href="destination-details.html">Island</a>
+                    <a href="destination-details.html">Bandarban</a>
                   </h4>
                   <span class="destination-subtitle">22 Listing</span>
                 </div>
@@ -291,7 +291,7 @@
               >
                 <div class="destination-content">
                   <h4 class="box-title">
-                    <a href="destination-details.html">Maldives</a>
+                    <a href="destination-details.html">senmartin</a>
                   </h4>
                   <span class="destination-subtitle">25 Listing</span>
                 </div>

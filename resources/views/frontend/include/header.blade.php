@@ -122,12 +122,11 @@
                     <li class="menu-item-has-children">
                       <a href="#">Services</a>
                       <ul class="sub-menu">
-                        <li><a href="service.html">Flights</a></li>
+                        
                         <li><a href="service-details.html">Hotels</a></li>
                         <li><a href="service-details.html">Car Rentals</a></li>
                         <li><a href="service-details.html">Vacation</a></li>
                         <li><a href="service-details.html">VIP & Corporate</a></li>
-                        <li><a href="service-details.html">Airport Transfers</a></li>
                         <li><a href="service-details.html">Special Request</a></li>
                       </ul>
                     </li>

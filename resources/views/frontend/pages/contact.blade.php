@@ -34,9 +34,9 @@
               <div class="about-contact-details">
                 <h6 class="box-title">Our Address</h6>
                 <p class="about-contact-details-text">
-                  2690 Hiltona Street Victoria
+                  103,Pantha Poth, Framgate.
                 </p>
-                <p class="about-contact-details-text">Road, New York, Canada</p>
+                <p class="about-contact-details-text">Road, Dhaka, Bangladesh</p>
               </div>
             </div>
           </div>
@@ -48,10 +48,10 @@
               <div class="about-contact-details">
                 <h6 class="box-title">Phone Number</h6>
                 <p class="about-contact-details-text">
-                  <a href="tel:01234567890">+01 234 567 890</a>
+                  <a href="tel:01234567890">+88015-00000007</a>
                 </p>
                 <p class="about-contact-details-text">
-                  <a href="tel:01234567890">+09 876 543 210</a>
+                  <a href="tel:01234567890">+096-00000007</a>
                 </p>
               </div>
             </div>
@@ -64,7 +64,7 @@
               <div class="about-contact-details">
                 <h6 class="box-title">Email Address</h6>
                 <p class="about-contact-details-text">
-                  <a href="mailto:mailinfo00@demo.com">mailinfo00@demo.com</a>
+                  <a href="tripfast777@gmail.com">tripfast777@gmail.com</a>
                 </p>
                 <p class="about-contact-details-text">
                   <a href="mailto:support24@demo.com">support24@demo.com</a>

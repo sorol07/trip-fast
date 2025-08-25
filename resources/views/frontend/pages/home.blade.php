@@ -203,10 +203,10 @@
             <div class="title-area mb-20 pe-xl-5 me-xl-5">
               <span class="sub-title style1">Our Mission</span>
               <h2 class="sec-title mb-20 pe-xl-5 me-xl-5 heading">
-                Travgo Travel Agency Mission
+                Trip-Fast Travel Agency Mission
               </h2>
               <p class="sec-text mb-30">
-                At Travgo, our mission is to make every journey unforgettable by offering seamless, personalized, and affordable travel experiences.
+                At Trip-fast, our mission is to make every journey unforgettable by offering seamless, personalized, and affordable travel experiences.
                 We are dedicated to connecting people to their dream destinations, ensuring they explore the world with ease, comfort, and confidence.
                 By combining cutting-edge technology, expert insights, and exceptional customer service, we aim to inspire wanderlust and foster a lifelong love for travel.
               </p>
@@ -259,7 +259,7 @@
             <div class="destination-list-wrap">
               <div
                 class="destination-list"
-                data-bg-src="assets/img/destination/sajek.png"
+                data-bg-src="assets/img/destination/sajek.jpg"
               >
                 <div class="destination-content">
                   <h4 class="box-title">
@@ -273,7 +273,7 @@
             <div class="destination-list-wrap">
               <div
                 class="destination-list"
-                data-bg-src="assets/img/destination/destination_2_3.jpg"
+                data-bg-src="assets/img/destination/bandarban.png"
               >
                 <div class="destination-content">
                   <h4 class="box-title">
@@ -287,11 +287,11 @@
             <div class="destination-list-wrap active">
               <div
                 class="destination-list"
-                data-bg-src="assets/img/destination/destination_2_4.jpg"
+                data-bg-src="assets/img/destination/senmartin.png"
               >
                 <div class="destination-content">
                   <h4 class="box-title">
-                    <a href="destination-details.html">senmartin</a>
+                    <a href="destination-details.html">Senmartin</a>
                   </h4>
                   <span class="destination-subtitle">25 Listing</span>
                 </div>
@@ -519,6 +519,7 @@
             data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"4"}}}'
           >
             <div class="swiper-wrapper">
+
               <div class="swiper-slide">
                 <div class="th-team team-box">
                   <div class="team-img">
@@ -527,7 +528,7 @@
                   <div class="team-content">
                     <div class="media-body">
                       <h3 class="box-title">
-                        <a href="tour-guider-details.html">Jacob Jones</a>
+                        <a href="tour-guider-details.html">Sorol Sarkar</a>
                       </h3>
                       <span class="team-desig">Tourist Guide</span>
                       <div class="th-social">
@@ -556,7 +557,7 @@
                   <div class="team-content">
                     <div class="media-body">
                       <h3 class="box-title">
-                        <a href="tour-guider-details.html">Jane Cooper</a>
+                        <a href="tour-guider-details.html">Bishal Kumar</a>
                       </h3>
                       <span class="team-desig">Tourist Guide</span>
                       <div class="th-social">
@@ -585,7 +586,7 @@
                   <div class="team-content">
                     <div class="media-body">
                       <h3 class="box-title">
-                        <a href="tour-guider-details.html">Guy Hawkins</a>
+                        <a href="tour-guider-details.html">Sadique Hossain</a>
                       </h3>
                       <span class="team-desig">Tourist Guide</span>
                       <div class="th-social">
@@ -614,123 +615,7 @@
                   <div class="team-content">
                     <div class="media-body">
                       <h3 class="box-title">
-                        <a href="tour-guider-details.html">Jenny Wilson</a>
-                      </h3>
-                      <span class="team-desig">Tourist Guide</span>
-                      <div class="th-social">
-                        <a target="_blank" href="https://facebook.com/"
-                          ><i class="fab fa-facebook-f"></i
-                        ></a>
-                        <a target="_blank" href="https://twitter.com/"
-                          ><i class="fab fa-twitter"></i
-                        ></a>
-                        <a target="_blank" href="https://instagram.com/"
-                          ><i class="fab fa-instagram"></i
-                        ></a>
-                        <a target="_blank" href="https://linkedin.com/"
-                          ><i class="fab fa-linkedin-in"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="th-team team-box">
-                  <div class="team-img">
-                    <img src="assets/img/team/team_1_1.jpg" alt="Team" />
-                  </div>
-                  <div class="team-content">
-                    <div class="media-body">
-                      <h3 class="box-title">
-                        <a href="tour-guider-details.html">Jacob Jones</a>
-                      </h3>
-                      <span class="team-desig">Tourist Guide</span>
-                      <div class="th-social">
-                        <a target="_blank" href="https://facebook.com/"
-                          ><i class="fab fa-facebook-f"></i
-                        ></a>
-                        <a target="_blank" href="https://twitter.com/"
-                          ><i class="fab fa-twitter"></i
-                        ></a>
-                        <a target="_blank" href="https://instagram.com/"
-                          ><i class="fab fa-instagram"></i
-                        ></a>
-                        <a target="_blank" href="https://linkedin.com/"
-                          ><i class="fab fa-linkedin-in"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="th-team team-box">
-                  <div class="team-img">
-                    <img src="assets/img/team/team_1_2.jpg" alt="Team" />
-                  </div>
-                  <div class="team-content">
-                    <div class="media-body">
-                      <h3 class="box-title">
-                        <a href="tour-guider-details.html">Jane Cooper</a>
-                      </h3>
-                      <span class="team-desig">Tourist Guide</span>
-                      <div class="th-social">
-                        <a target="_blank" href="https://facebook.com/"
-                          ><i class="fab fa-facebook-f"></i
-                        ></a>
-                        <a target="_blank" href="https://twitter.com/"
-                          ><i class="fab fa-twitter"></i
-                        ></a>
-                        <a target="_blank" href="https://instagram.com/"
-                          ><i class="fab fa-instagram"></i
-                        ></a>
-                        <a target="_blank" href="https://linkedin.com/"
-                          ><i class="fab fa-linkedin-in"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="th-team team-box">
-                  <div class="team-img">
-                    <img src="assets/img/team/team_1_3.jpg" alt="Team" />
-                  </div>
-                  <div class="team-content">
-                    <div class="media-body">
-                      <h3 class="box-title">
-                        <a href="tour-guider-details.html">Guy Hawkins</a>
-                      </h3>
-                      <span class="team-desig">Tourist Guide</span>
-                      <div class="th-social">
-                        <a target="_blank" href="https://facebook.com/"
-                          ><i class="fab fa-facebook-f"></i
-                        ></a>
-                        <a target="_blank" href="https://twitter.com/"
-                          ><i class="fab fa-twitter"></i
-                        ></a>
-                        <a target="_blank" href="https://instagram.com/"
-                          ><i class="fab fa-instagram"></i
-                        ></a>
-                        <a target="_blank" href="https://linkedin.com/"
-                          ><i class="fab fa-linkedin-in"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="th-team team-box">
-                  <div class="team-img">
-                    <img src="assets/img/team/team_1_4.jpg" alt="Team" />
-                  </div>
-                  <div class="team-content">
-                    <div class="media-body">
-                      <h3 class="box-title">
-                        <a href="tour-guider-details.html">Jenny Wilson</a>
+                        <a href="tour-guider-details.html">Elias Hasan</a>
                       </h3>
                       <span class="team-desig">Tourist Guide</span>
                       <div class="th-social">

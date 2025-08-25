@@ -9,10 +9,10 @@
   <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.jpg">
     <div class="container">
       <div class="breadcumb-content">
-        <h1 class="breadcumb-title">About Travgo</h1>
+        <h1 class="breadcumb-title">About Trip-Fast</h1>
         <ul class="breadcumb-menu">
           <li><a href="{{ route('home') }}">Home</a></li>
-          <li>About Travgo</li>
+          <li>About Trip-Fast</li>
         </ul>
       </div>
     </div>
@@ -36,7 +36,7 @@
         <div class="col-xl-5">
           <div class="ps-xl-4">
             <div class="title-area mb-20">
-              <span class="sub-title style1">Welcome To Travgo</span>
+              <span class="sub-title style1">Welcome To Trip-Fast</span>
               <h2 class="sec-title mb-20 pe-xl-5 me-xl-5 heading">
                 We are world reputeted travel agency
               </h2>
@@ -119,245 +119,134 @@
         <span class="sub-title">Meet with Guide</span>
         <h2 class="sec-title">Meet with Tour Guide</h2>
       </div>
-      <div class="slider-area">
-        <div class="swiper th-slider teamSlider3 has-shadow" id="teamSlider3" data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"3"}}}'>
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="th-team team-grid">
-                <div class="team-img">
-                  <img src="assets/img/team/team_img_1.jpg" alt="Team" />
+        <div class="slider-area">
+          <div
+            class="swiper th-slider teamSlider1 has-shadow"
+            id="teamSlider1"
+            data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"4"}}}'
+          >
+            <div class="swiper-wrapper">
+
+              <div class="swiper-slide">
+                <div class="th-team team-box">
+                  <div class="team-img">
+                    <img src="assets/img/team/team_1_1.jpg" alt="Team" />
+                  </div>
+                  <div class="team-content">
+                    <div class="media-body">
+                      <h3 class="box-title">
+                        <a href="tour-guider-details.html">Sorol Sarkar</a>
+                      </h3>
+                      <span class="team-desig">Tourist Guide</span>
+                      <div class="th-social">
+                        <a target="_blank" href="https://facebook.com/"
+                          ><i class="fab fa-facebook-f"></i
+                        ></a>
+                        <a target="_blank" href="https://twitter.com/"
+                          ><i class="fab fa-twitter"></i
+                        ></a>
+                        <a target="_blank" href="https://instagram.com/"
+                          ><i class="fab fa-instagram"></i
+                        ></a>
+                        <a target="_blank" href="https://linkedin.com/"
+                          ><i class="fab fa-linkedin-in"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="team-img2">
-                  <img src="assets/img/team/team_1_1.jpg" alt="Team" />
+              </div>
+              <div class="swiper-slide">
+                <div class="th-team team-box">
+                  <div class="team-img">
+                    <img src="assets/img/team/team_1_2.jpg" alt="Team" />
+                  </div>
+                  <div class="team-content">
+                    <div class="media-body">
+                      <h3 class="box-title">
+                        <a href="tour-guider-details.html">Bishal Kumar</a>
+                      </h3>
+                      <span class="team-desig">Tourist Guide</span>
+                      <div class="th-social">
+                        <a target="_blank" href="https://facebook.com/"
+                          ><i class="fab fa-facebook-f"></i
+                        ></a>
+                        <a target="_blank" href="https://twitter.com/"
+                          ><i class="fab fa-twitter"></i
+                        ></a>
+                        <a target="_blank" href="https://instagram.com/"
+                          ><i class="fab fa-instagram"></i
+                        ></a>
+                        <a target="_blank" href="https://linkedin.com/"
+                          ><i class="fab fa-linkedin-in"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="team-content">
-                  <div class="media-body">
-                    <h3 class="box-title">
-                      <a href="tour-guider-details.html">Michel Smith</a>
-                    </h3>
-                    <span class="team-desig">Tourist Guide</span>
-                    <div class="th-social">
-                      <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                      <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                      <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                      <a target="_blank" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
-                      <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+              </div>
+              <div class="swiper-slide">
+                <div class="th-team team-box">
+                  <div class="team-img">
+                    <img src="assets/img/team/team_1_3.jpg" alt="Team" />
+                  </div>
+                  <div class="team-content">
+                    <div class="media-body">
+                      <h3 class="box-title">
+                        <a href="tour-guider-details.html">Sadique Hossain</a>
+                      </h3>
+                      <span class="team-desig">Tourist Guide</span>
+                      <div class="th-social">
+                        <a target="_blank" href="https://facebook.com/"
+                          ><i class="fab fa-facebook-f"></i
+                        ></a>
+                        <a target="_blank" href="https://twitter.com/"
+                          ><i class="fab fa-twitter"></i
+                        ></a>
+                        <a target="_blank" href="https://instagram.com/"
+                          ><i class="fab fa-instagram"></i
+                        ></a>
+                        <a target="_blank" href="https://linkedin.com/"
+                          ><i class="fab fa-linkedin-in"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="th-team team-box">
+                  <div class="team-img">
+                    <img src="assets/img/team/team_1_4.jpg" alt="Team" />
+                  </div>
+                  <div class="team-content">
+                    <div class="media-body">
+                      <h3 class="box-title">
+                        <a href="tour-guider-details.html">Elias Hasan</a>
+                      </h3>
+                      <span class="team-desig">Tourist Guide</span>
+                      <div class="th-social">
+                        <a target="_blank" href="https://facebook.com/"
+                          ><i class="fab fa-facebook-f"></i
+                        ></a>
+                        <a target="_blank" href="https://twitter.com/"
+                          ><i class="fab fa-twitter"></i
+                        ></a>
+                        <a target="_blank" href="https://instagram.com/"
+                          ><i class="fab fa-instagram"></i
+                        ></a>
+                        <a target="_blank" href="https://linkedin.com/"
+                          ><i class="fab fa-linkedin-in"></i
+                        ></a>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="swiper-slide">
-              <div class="th-team team-grid">
-                <div class="team-img">
-                  <img src="assets/img/team/team_img_2.jpg" alt="Team" />
-                </div>
-                <div class="team-img2">
-                  <img src="assets/img/team/team_1_2.jpg" alt="Team" />
-                </div>
-                <div class="team-content">
-                  <div class="media-body">
-                    <h3 class="box-title">
-                      <a href="tour-guider-details.html">Janny Willson</a>
-                    </h3>
-                    <span class="team-desig">Tourist Guide</span>
-                    <div class="th-social">
-                      <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                      <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                      <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                      <a target="_blank" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
-                      <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="th-team team-grid">
-                <div class="team-img">
-                  <img src="assets/img/team/team_img_3.jpg" alt="Team" />
-                </div>
-                <div class="team-img2">
-                  <img src="assets/img/team/team_1_3.jpg" alt="Team" />
-                </div>
-                <div class="team-content">
-                  <div class="media-body">
-                    <h3 class="box-title">
-                      <a href="tour-guider-details.html">Jacob Jones</a>
-                    </h3>
-                    <span class="team-desig">Tourist Guide</span>
-                    <div class="th-social">
-                      <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                      <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                      <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                      <a target="_blank" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
-                      <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="th-team team-grid">
-                <div class="team-img">
-                  <img src="assets/img/team/team_img_1.jpg" alt="Team" />
-                </div>
-                <div class="team-img2">
-                  <img src="assets/img/team/team_1_4.jpg" alt="Team" />
-                </div>
-                <div class="team-content">
-                  <div class="media-body">
-                    <h3 class="box-title">
-                      <a href="tour-guider-details.html">Maria Prova</a>
-                    </h3>
-                    <span class="team-desig">Tourist Guide</span>
-                    <div class="th-social">
-                      <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                      <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                      <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                      <a target="_blank" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
-                      <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="th-team team-grid">
-                <div class="team-img">
-                  <img src="assets/img/team/team_img_2.jpg" alt="Team" />
-                </div>
-                <div class="team-img2">
-                  <img src="assets/img/team/team_1_5.jpg" alt="Team" />
-                </div>
-                <div class="team-content">
-                  <div class="media-body">
-                    <h3 class="box-title">
-                      <a href="tour-guider-details.html">Rebeka Maliha</a>
-                    </h3>
-                    <span class="team-desig">Tourist Guide</span>
-                    <div class="th-social">
-                      <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                      <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                      <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                      <a target="_blank" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
-                      <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="th-team team-grid">
-                <div class="team-img">
-                  <img src="assets/img/team/team_img_3.jpg" alt="Team" />
-                </div>
-                <div class="team-img2">
-                  <img src="assets/img/team/team_1_6.jpg" alt="Team" />
-                </div>
-                <div class="team-content">
-                  <div class="media-body">
-                    <h3 class="box-title">
-                      <a href="tour-guider-details.html">Alif Mahmud</a>
-                    </h3>
-                    <span class="team-desig">Tourist Guide</span>
-                    <div class="th-social">
-                      <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                      <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                      <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                      <a target="_blank" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
-                      <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="th-team team-grid">
-                <div class="team-img">
-                  <img src="assets/img/team/team_img_1.jpg" alt="Team" />
-                </div>
-                <div class="team-img2">
-                  <img src="assets/img/team/team_1_3.jpg" alt="Team" />
-                </div>
-                <div class="team-content">
-                  <div class="media-body">
-                    <h3 class="box-title">
-                      <a href="tour-guider-details.html">Guy Hawkins</a>
-                    </h3>
-                    <span class="team-desig">Tourist Guide</span>
-                    <div class="th-social">
-                      <a target="_blank" href="https://facebook.com/"
-                        ><i class="fab fa-facebook-f"></i
-                      ></a>
-                      <a target="_blank" href="https://twitter.com/"
-                        ><i class="fab fa-twitter"></i
-                      ></a>
-                      <a target="_blank" href="https://linkedin.com/"
-                        ><i class="fab fa-linkedin-in"></i
-                      ></a>
-                      <a target="_blank" href="https://youtube.com/"
-                        ><i class="fab fa-youtube"></i
-                      ></a>
-                      <a target="_blank" href="https://instagram.com/"
-                        ><i class="fab fa-instagram"></i
-                      ></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="th-team team-grid">
-                <div class="team-img">
-                  <img src="assets/img/team/team_img_2.jpg" alt="Team" />
-                </div>
-                <div class="team-img2">
-                  <img src="assets/img/team/team_1_4.jpg" alt="Team" />
-                </div>
-                <div class="team-content">
-                  <div class="media-body">
-                    <h3 class="box-title">
-                      <a href="tour-guider-details.html">Jenny Wilson</a>
-                    </h3>
-                    <span class="team-desig">Tourist Guide</span>
-                    <div class="th-social">
-                      <a target="_blank" href="https://facebook.com/"
-                        ><i class="fab fa-facebook-f"></i
-                      ></a>
-                      <a target="_blank" href="https://twitter.com/"
-                        ><i class="fab fa-twitter"></i
-                      ></a>
-                      <a target="_blank" href="https://linkedin.com/"
-                        ><i class="fab fa-linkedin-in"></i
-                      ></a>
-                      <a target="_blank" href="https://youtube.com/"
-                        ><i class="fab fa-youtube"></i
-                      ></a>
-                      <a target="_blank" href="https://instagram.com/"
-                        ><i class="fab fa-instagram"></i
-                      ></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <div class="slider-pagination"></div>
           </div>
-          <div class="slider-pagination"></div>
         </div>
-        <button
-          data-slider-prev="#teamSlider3"
-          class="slider-arrow slider-prev"
-        >
-          <img src="assets/img/icon/right-arrow2.svg" alt="" />
-        </button>
-        <button
-          data-slider-next="#teamSlider3"
-          class="slider-arrow slider-next"
-        >
-          <img src="assets/img/icon/left-arrow2.svg" alt="" />
-        </button>
-      </div>
     </div>
   </section>
 

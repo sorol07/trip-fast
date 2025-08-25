@@ -175,10 +175,6 @@
         <div class="container">
           <div class="row justify-content-between align-items-center">
             <div class="col-md-6">
-              <p class="copyright-text">
-                Copyright 2025 <a href="index.html">Travgo</a>. All Rights
-                Reserved.
-              </p>
             </div>
             <div class="col-md-6 text-end d-none d-md-block">
               <div class="footer-card">

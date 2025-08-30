@@ -7,7 +7,8 @@ use Illuminate\Http\Request;
 
 class DashboardController extends Controller
 {
-    public function index(){
-        view('admin.wellcome');
+ public function index()
+    {
+        return view('admin.welcome'); 
     }
 }

@@ -187,16 +187,22 @@
       <div class="row">
         <div class="col-xl-6">
           <div class="img-box1">
+    @foreach($gallarys as $index => $gallary)
+        @if($index == 0)
             <div class="img1">
-              <img src="assets/img/normal/about_1_1.jpg" alt="About" />
+                <img src="{{ asset($gallary->image) }}" alt="About 1" />
             </div>
+        @elseif($index == 1)
             <div class="img2">
-              <img src="assets/img/normal/about_1_2.jpg" alt="About" />
+                <img src="{{ asset($gallary->image) }}" alt="About 2" />
             </div>
+        @elseif($index == 2)
             <div class="img3">
-              <img src="assets/img/normal/about_1_3.jpg" alt="About" />
+                <img src="{{ asset($gallary->image) }}" alt="About 3" />
             </div>
-          </div>
+        @endif
+    @endforeach
+</div>
         </div>
         <div class="col-xl-6">
           <div class="ps-xl-4 ms-xl-2">

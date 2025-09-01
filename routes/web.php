@@ -26,8 +26,10 @@ Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
     Route::get('/mission', [DashboardController::class, 'missionIndex'])->name('mission.index');
     Route::get('/mission/create', [DashboardController::class, 'missionAdd'])->name('mission.create');
+    Route::post('/mission/store', [DashboardController::class, 'missionStore'])->name('mission.store');
     Route::get('/mission/edit/{id}', [DashboardController::class, 'missionEdit'])->name('mission.edit');
-    Route::post('/mission/update}', [DashboardController::class, 'missionUpdate'])->name('mission.update');
+    Route::get('/mission/status/{id}', [DashboardController::class, 'missionStatus'])->name('mission.show');
+    Route::post('/mission/update}/{id}', [DashboardController::class, 'missionUpdate'])->name('mission.update');
     Route::post('/logout', [Controller::class, 'logout'])->name('logout');
 
 

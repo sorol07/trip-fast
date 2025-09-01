@@ -44,7 +44,7 @@
                     </a>
                     <ul class="slide-menu">
                         <li><a href="" class="slide-item">Category</a></li>
-                        <li><a href="" class="slide-item">Sub-Category</a></li>
+                        <li><a href="{{ route('mission.index') }}" class="slide-item">Our Mission</a></li>
                         <li><a href="" class="slide-item">Brand</a></li>
                         <li><a href="" class="slide-item">Color</a></li>
                         <li><a href="" class="slide-item">Size</a></li>

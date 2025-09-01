@@ -67,10 +67,6 @@
                     <i class="fa-sharp fa-regular fa-location-dot"></i>
                     <span>House-103 Pantha Path Farmgate Dhaka, Bangladesh</span>
                   </li>
-                  <li class="d-none d-xl-inline-block">
-                    <i class="fa-regular fa-clock"></i>
-                    <span>Sun to Friday: 8.00 am - 7.00 pm</span>
-                  </li>
                 </ul>
               </div>
             </div>
@@ -78,10 +74,14 @@
               <div class="header-right">
                 <div class="header-links">
                   <ul>
-                    <li>
+                    <!-- <li>
                       <a href="#login-form" class="popup-content"
                         >Sign In / Register<i class="fa-regular fa-user"></i
                       ></a>
+                    </li> -->
+                     <li class="d-none d-xl-inline-block">
+                      <i class="fa-regular fa-clock"></i>
+                      <span>Sun to Friday: 8.00 am - 7.00 pm</span>
                     </li>
                   </ul>
                 </div>

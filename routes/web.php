@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\Admin\DashboardController;
+use App\Http\Controllers\Controller;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,13 +24,13 @@ Route::get('/about', [HomeController::class, 'about'])->name('about');
 
 Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+    Route::get('/mission', [DashboardController::class, 'missionIndex'])->name('mission.index');
+    Route::get('/mission/create', [DashboardController::class, 'missionAdd'])->name('mission.create');
+    Route::get('/mission/edit/{id}', [DashboardController::class, 'missionEdit'])->name('mission.edit');
+    Route::post('/mission/update}', [DashboardController::class, 'missionUpdate'])->name('mission.update');
+    Route::post('/logout', [Controller::class, 'logout'])->name('logout');
+
+
 });
-
-
-
-//     Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
-
-
-
 
 require __DIR__.'/auth.php';

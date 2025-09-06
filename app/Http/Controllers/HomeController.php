@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use App\Models\Mission;
+use App\Models\Guide;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -12,10 +13,11 @@ class HomeController extends Controller
                             ->latest()  // created_at বা updated_at এর ওপর latest
                             ->take(3)    // latest 4 items
                             ->get();
-
-                            // dd($gallarys);
-
-        return view('frontend.pages.home', compact('gallarys'));
+        $guides = Guide::where('status', 1)
+                            ->latest()  // created_at বা updated_at এর ওপর latest
+                            ->get();
+                        
+        return view('frontend.pages.home', compact('gallarys','guides'));
 }
 
     public function contact(){
@@ -23,6 +25,9 @@ class HomeController extends Controller
     }
 
     public function about(){
-        return view('frontend.pages.about');
+        $guides = Guide::where('status', 1)
+                            ->latest()  // created_at বা updated_at এর ওপর latest
+                            ->get();
+        return view('frontend.pages.about', compact('guides'));
     }
 }

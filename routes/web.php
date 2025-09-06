@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\Admin\DashboardController;
+use App\Http\Controllers\Admin\GuideController;
 use App\Http\Controllers\Controller;
 
 /*
@@ -31,6 +32,10 @@ Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('/mission/status/{id}', [DashboardController::class, 'missionStatus'])->name('mission.show');
     Route::post('/mission/update}/{id}', [DashboardController::class, 'missionUpdate'])->name('mission.update');
     Route::post('/logout', [Controller::class, 'logout'])->name('logout');
+
+
+    // guide url
+    Route::resource('guides', GuideController::class);
 
 
 });

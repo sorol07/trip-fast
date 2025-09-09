@@ -2526,6 +2526,37 @@ input[type=time]::-webkit-calendar-picker-indicator {
     transition: all 0.3s 0s ease-out;
     gap: 8px
 }
+.th-btn1 {
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    vertical-align: middle;
+    text-align: center;
+    background-color: var(--theme-color);
+    color: var(--white-color);
+    font-family: var(--body-font);
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-transform: capitalize;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 18.8px 35px;
+    border-radius: 48px;
+    -webkit-transition: all 0.3s 0s ease-out;
+    transition: all 0.3s 0s ease-out;
+    gap: 8px
+}
 
 .th-btn.th-icon:after {
     content: '';

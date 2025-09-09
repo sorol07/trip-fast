@@ -43,9 +43,10 @@
                         <span class="side-menu__label">Settings Module</span><i class="angle fa fa-angle-right"></i>
                     </a>
                     <ul class="slide-menu">
+                        <li><a href="{{ route('users.index') }}" class="slide-item">All Admin</a></li>
                         <li><a href="{{ route('guides.index') }}" class="slide-item">Our Guide Manage</a></li>
                         <li><a href="{{ route('mission.index') }}" class="slide-item">Our Mission</a></li>
-                        <li><a href="" class="slide-item">Brand</a></li>
+                        <li><a href="{{ route('messages.index') }}" class="slide-item">Message ManagementS</a></li>
                     </ul>
                 </li>
             </ul>

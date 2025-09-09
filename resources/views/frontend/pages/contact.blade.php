@@ -88,15 +88,16 @@
           </div>
           <div class="col-lg-6">
             <div>
-              <form action="#" method="POST" class="contact-form style2 ajax-contact">
-                <h3 class="sec-title mb-30 text-capitalize">Book a tour</h3>
+              <form action="{{ route('message.send') }}" method="POST" class="contact-form">
+              @csrf  
+              <h3 class="sec-title mb-30 text-capitalize">Book a tour</h3>
                 <div class="row">
                   <div class="col-12 form-group">
                     <input type="text" class="form-control" name="name" id="name3" placeholder="First Name"/>
                     <img src="assets/img/icon/user.svg" alt="" />
                   </div>
                   <div class="col-12 form-group">
-                    <input type="email" class="form-control" name="email3" id="email3" placeholder="Your Mail"/>
+                    <input type="email" class="form-control" name="email" id="email3" placeholder="Your Mail"/>
                     <img src="assets/img/icon/mail.svg" alt="" />
                   </div>
                   <div class="form-group col-12">
@@ -124,7 +125,7 @@
                     <img src="assets/img/icon/chat.svg" alt="" />
                   </div>
                   <div class="form-btn col-12 mt-24">
-                    <button type="submit" class="th-btn style3">
+                    <button type="submit" class="th-btn1">
                       Send message
                       <img src="assets/img/icon/plane.svg" alt="" />
                     </button>

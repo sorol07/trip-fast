@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use App\Models\Mission;
+use App\Models\Message;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 
@@ -18,6 +19,12 @@ class DashboardController extends Controller
     {
         $missions = Mission::all();
         return view('admin.mission.index', compact('missions')); 
+    }
+
+    public function MessageIndex()
+    {
+        $messages = Message::all();
+        return view('admin.message.index', compact('messages')); 
     }
 
     public function missionAdd(){
@@ -43,7 +50,7 @@ class DashboardController extends Controller
 
         $mission->save();
 
-        return redirect()->route('mission.index')->with('message', 'Mission created successfully!');
+        return redirect()->route('mission.index')->with('success', 'Mission created successfully!');
     }
     public function missionEdit($id){
         $mission = Mission::findOrFail($id);
@@ -70,7 +77,7 @@ class DashboardController extends Controller
 
         $mission->save();
 
-        return redirect()->route('mission.index')->with('message', 'Mission updated successfully!');
+        return redirect()->route('mission.index')->with('success', 'Mission updated successfully!');
 }
 
     public function missionStatus($id)
@@ -79,7 +86,15 @@ class DashboardController extends Controller
         $mission->status = $mission->status == 1 ? 0 : 1;
         $mission->save();
 
-        return redirect()->back()->with('message', 'Mission Status updated');
+        return redirect()->back()->with('success', 'Mission Status updated');
+    }
+    public function messageStatus($id)
+    {
+        $message = Message::find($id);
+        $message->status = $message->status == 1 ? 0 : 1;
+        $message->save();
+
+        return redirect()->back()->with('success', 'Message Action Status updated');
     }
 
 }

@@ -7,6 +7,8 @@
     <title>Noa - @yield('title')</title>
 
     @include('admin.includes.style')
+        <!-- SweetAlert include -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
 </head>
 
 <body class="ltr app sidebar-mini">
@@ -47,6 +49,19 @@
 </div>
 <!-- page -->
 @include('admin.includes.script')
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+    @if(session('success'))
+        <script>
+            swal("Success!", "{{ session('success') }}", "success");
+        </script>
+    @endif
+
+    @if(session('error'))
+        <script>
+            swal("Error!", "{{ session('error') }}", "error");
+        </script>
+    @endif
 
 </body>
 </html>
